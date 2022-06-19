@@ -4,6 +4,7 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
+    height: max-content;
 }
 
 footer a {
@@ -46,7 +47,5 @@ footer a {
         margin-bottom: 2.6rem;
     }
 
-    footer {
-        margin-top: 100vh;
-    }
+
 }
