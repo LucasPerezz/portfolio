@@ -3,6 +3,7 @@ import './Portfolio.css'
 import IMG1 from '../../assests/gamingzone.png'
 import IMG2 from '../../assests/puntophone.png'
 import IMG3 from '../../assests/aalaska.JPG'
+import IMG4 from '../../assests/moneySave.JPG'
 
 
 const data = [
@@ -26,6 +27,13 @@ const data = [
     title: 'Alaska Indumentaria',
     github: 'https://github.com/LucasPerezz/alaskaIndumentaria-perez',
     demo: 'https://alaskaindumentaria.vercel.app/'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'MoneySave',
+    github: 'https://github.com/LucasPerezz/controladorDeGastos',
+    demo: 'https://lucasperezz.github.io/controladorDeGastos/'
   }
 ]
 
