@@ -16,6 +16,7 @@ const oswald = Oswald({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head><link rel='icon' href='https://i.ibb.co/VLhR28T/logoprogramacion.jpg'/></head>
       <body className={oswald.className}>{children}</body>
     </html>
   )
