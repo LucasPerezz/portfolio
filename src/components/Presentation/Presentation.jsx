@@ -26,7 +26,7 @@ export default function Presentation(){
                 <p className='text-neutral-400 text-base lg:text-lg font-light'>perezlucas2609@gmail.com</p>
             </span>
             <span className='flex flex-col gap-1'>
-                <h3 className='text-xl lg:text-2xl text-lime-400'>Nacionalidad</h3>
+                <h3 className='text-xl lg:text-2xl text-lime-400'>Nationality</h3>
                 <p className='text-neutral-400 text-base lg:text-lg font-light'>Argentina</p>
             </span>
         </div>
