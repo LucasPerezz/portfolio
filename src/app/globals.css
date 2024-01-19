@@ -117,18 +117,18 @@
 /* Animations */
 
 .slide-in-top {
-	-webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .slide-in-left {
-	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .slide-in-right {
-	-webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .tracking-in-expand {
