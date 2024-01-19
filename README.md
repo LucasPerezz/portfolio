@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Lucas Perez - Desarrollador Full Stack
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Sobre mi
+Soy un entusiasta del aprendizaje constante y siempre estoy buscando nuevas formas de mejorar mis habilidades. Mi mentalidad de crecimiento me impulsa a mantenerme actualizado con las últimas tendencias tecnológicas y adoptar nuevas herramientas para mejorar mi eficiencia como desarrollador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aunque no tengo experiencia laboral formal, he trabajado en varios proyectos personales que demuestran mi capacidad para enfrentar desafíos y encontrar soluciones creativas.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Me esfuerzo por seguir las mejores prácticas de desarrollo de software y asegurarme de que mis códigos sean limpios, eficientes y escalables. La calidad del código es una prioridad para mí, incluso en entornos de desarrollo personal.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Mi objetivo a corto plazo es adquirir experiencia laboral en un entorno profesional para continuar desarrollando mis habilidades y contribuir al éxito de un equipo
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Skills
+HTML5, CSS3, JavaScript, React.Js, Next.Js, Tailwind Css, MongoDB, Express.Js, SQL Server, Git, Github, Swagger, C
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://lucastomasperez.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasperez26/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
