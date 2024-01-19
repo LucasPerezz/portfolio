@@ -12,8 +12,8 @@ export default function Presentation(){
         <div className='relative flex flex-col sm:flex-row gap-4 sm:gap-10 items-center justify-between'>
             <Image src="https://i.ibb.co/yBnLnN5/lucasperez-portfolio.jpg" alt="Lucas Perez" width={200} height={200} className='w-[160px] sm:[180px] lg:w-[200px] border-8 shadow-lg border-neutral-400 rounded-3xl relative -top-5 md:-top-10'/>
             <div className='flex flex-col items-center justify-center md:justify-start md:items-start gap-1 md:gap-0'>
-                <h1 className='text-lime-400 text-2xl lg:text-4xl font-semibold'>LUCAS TOMAS PEREZ</h1>
-                <h2 className='text-neutral-300 font-light text-xl lg:text-2xl'>Full Stack Developer</h2>
+                <h1 className='text-lime-400 text-2xl lg:text-4xl font-semibold tracking-in-expand'>LUCAS TOMAS PEREZ</h1>
+                <h2 className='text-neutral-300 font-light text-xl lg:text-2xl slide-in-top'>Full Stack Developer</h2>
                 <div className='flex gap-2 mt-2'>
                     <a href="https://www.linkedin.com/in/lucasperez26/"><FaLinkedin color='gray' size={"28px"}/></a>
                     <a href="https://github.com/LucasPerezz"><IoLogoGithub color='gray' size={"28px"}/></a>

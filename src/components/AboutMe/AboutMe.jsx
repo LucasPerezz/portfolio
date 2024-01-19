@@ -35,7 +35,7 @@ export default function AboutMe() {
         <motion.article
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="border border-neutral-700 rounded-xl p-5 md:p-10 flex flex-col justify-center items-center gap-3 w-full hover:border-lime-400 transition-all"
+          className="slide-in-left border border-neutral-700 rounded-xl p-5 md:p-10 flex flex-col justify-center items-center gap-3 w-full hover:border-lime-400 transition-all"
         >
           <HiMiniComputerDesktop color="#a3e635" size={"40px"} />
           <h2 className="text-xl md:text-2xl text-lime-400">
@@ -50,7 +50,7 @@ export default function AboutMe() {
         <motion.article
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="border border-neutral-700 rounded-xl p-5 md:p-10 flex flex-col justify-center items-center gap-3 w-full hover:border-lime-400 transition-all"
+          className="slide-in-right border border-neutral-700 rounded-xl p-5 md:p-10 flex flex-col justify-center items-center gap-3 w-full hover:border-lime-400 transition-all"
         >
           <HiOutlineCloud color="#a3e635" size={"40px"} />
           <h2 className="text-xl md:text-2xl text-lime-400">
