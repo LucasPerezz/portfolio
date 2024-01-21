@@ -10,15 +10,11 @@ export default function ParticlesBackgorund() {
         await loadSlim(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
 
     return (
         <Particles
             id="tsparticles"
             init={particlesInit}
-            loaded={particlesLoaded}
             className='-z-50'
             options={{
                 background: {

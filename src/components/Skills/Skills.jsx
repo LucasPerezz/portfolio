@@ -1,7 +1,7 @@
 import SkillsLayout from "./SkillsLayout";
 
 async function getSkills() {
-  const res = await fetch("https://portfolio-backendd-k3ou.onrender.com/api/skills")
+  const res = await fetch("https://portfolio-backendd-k3ou.onrender.com/api/skills", {next: {revalidate: 3600}})
   const data = await res.json();
   return data;
 }

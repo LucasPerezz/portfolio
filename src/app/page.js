@@ -1,4 +1,5 @@
 import AboutMe from '@/components/AboutMe/AboutMe'
+import Education from '@/components/Education/Education'
 import ParticlesBackgorund from '@/components/Particles/ParticlesBackground'
 import Presentation from '@/components/Presentation/Presentation'
 import Projects from '@/components/Projects/Projects'
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutMe />
       <Projects />
       <Skills />
+      <Education />
     </main>
   )
 }

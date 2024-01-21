@@ -12,7 +12,7 @@ export default function Project({data}){
           <Image
             className="object-cover w-full h-52 brightness-[0.3] blur-sm"
             src={data.image}
-            alt=""
+            alt={data.project}
             width={500}
             height={500}
           />

@@ -58,7 +58,7 @@ export default function AboutMe() {
           </h2>
           <p className="text-neutral-400 text-lg md:text-xl font-light">
             I specialize in building powerful and adaptable systems, my approach
-            is oriented towards the creation of meticulous and ell-documented
+            is oriented towards the creation of meticulous and well-documented
             code, focused on the security and efficiency of the applications.
           </p>
         </motion.article>
