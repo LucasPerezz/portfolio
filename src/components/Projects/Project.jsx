@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export default function Project({data}){
     return (
-        <motion.article whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="relative overflow-hidden rounded-lg cursor-pointer shadow-sm hover:shadow-lime-400 w-full border border-transparent hover:border-lime-400">
+        <motion.article whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} className="relative overflow-hidden rounded-lg cursor-pointer shadow-sm hover:shadow-yellow-400 w-full border border-transparent hover:border-yellow-400">
           <Image
             className="object-cover w-full h-52 brightness-[0.3] blur-sm"
             src={data.image}

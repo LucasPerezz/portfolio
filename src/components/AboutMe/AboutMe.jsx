@@ -16,8 +16,8 @@ export default function AboutMe() {
       className="h-max bg-neutral-800 w-full container max-w-[1000px] rounded-xl p-10 flex flex-col shadow-xl gap-8"
     >
       <div className="flex gap-3 items-center">
-        <HiMiniCodeBracket color="#a3e635" size={"24px"} />
-        <h3 className="text-lg md:text-xl text-lime-400">ABOUT ME</h3>
+        <HiMiniCodeBracket color="#facc15" size={"24px"} />
+        <h3 className="text-lg md:text-xl text-yellow-400">ABOUT ME</h3>
       </div>
       <p className="text-neutral-400 text-lg md:text-xl  font-light">
         Passionate about programming. Resilient, competitive, and persistent.{" "}
@@ -27,18 +27,18 @@ export default function AboutMe() {
       </p>
 
       <div className="flex gap-3 items-center">
-        <HiOutlineBriefcase color="#a3e635" size={"24px"} />
-        <h3 className="text-lg md:text-xl text-lime-400">What Im Doing</h3>
+        <HiOutlineBriefcase color="#facc15" size={"24px"} />
+        <h3 className="text-lg md:text-xl text-yellow-400">What Im Doing</h3>
       </div>
 
       <div className="flex flex-col md:flex-row justify-evenly gap-4">
         <motion.article
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="slide-in-left border border-neutral-700 rounded-xl p-5 md:p-10 flex flex-col justify-center items-center gap-3 w-full hover:border-lime-400 transition-all"
+          className="slide-in-left border border-neutral-700 rounded-xl p-5 md:p-10 flex flex-col justify-center items-center gap-3 w-full hover:border-yellow-400 transition-all"
         >
-          <HiMiniComputerDesktop color="#a3e635" size={"40px"} />
-          <h2 className="text-xl md:text-2xl text-lime-400">
+          <HiMiniComputerDesktop color="#facc15" size={"40px"} />
+          <h2 className="text-xl md:text-2xl text-yellow-400">
             Frontend Development
           </h2>
           <p className="text-neutral-400 text-lg md:text-xl font-light">
@@ -50,10 +50,10 @@ export default function AboutMe() {
         <motion.article
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="slide-in-right border border-neutral-700 rounded-xl p-5 md:p-10 flex flex-col justify-center items-center gap-3 w-full hover:border-lime-400 transition-all"
+          className="slide-in-right border border-neutral-700 rounded-xl p-5 md:p-10 flex flex-col justify-center items-center gap-3 w-full hover:border-yellow-400 transition-all"
         >
-          <HiOutlineCloud color="#a3e635" size={"40px"} />
-          <h2 className="text-xl md:text-2xl text-lime-400">
+          <HiOutlineCloud color="#facc15" size={"40px"} />
+          <h2 className="text-xl md:text-2xl text-yellow-400">
             Backend Development
           </h2>
           <p className="text-neutral-400 text-lg md:text-xl font-light">

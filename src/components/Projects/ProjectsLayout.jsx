@@ -14,8 +14,8 @@ export default function ProjectsLayout({projects}) {
       className="bg-neutral-800 w-full container max-w-[1000px] rounded-xl shadow-xl p-5 sm:p-10 flex flex-col gap-8"
     >
       <div className="flex items-center gap-3">
-        <FaBriefcase color="#a3e635" size={"24px"} />
-        <h3 className="text-base md:text-xl text-lime-400">PORTFOLIO</h3>
+        <FaBriefcase color="#facc15" size={"24px"} />
+        <h3 className="text-base md:text-xl text-yellow-400">PORTFOLIO</h3>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

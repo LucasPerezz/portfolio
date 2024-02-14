@@ -8,7 +8,7 @@ export default function Skill({ data }) {
     <motion.article
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
-      className="flex flex-col gap-4 items-center justify-evenly p-6 w-[120px] sm:w-[140px] h-[120px] sm:h-[140px] border border-transparent hover:border-lime-400 hover:shadow-lime-400 hover:shadow rounded-xl transition-all"
+      className="flex flex-col gap-4 items-center justify-evenly p-6 w-[120px] sm:w-[140px] h-[120px] sm:h-[140px] border border-transparent hover:border-yellow-400 hover:shadow-yellow-400 hover:shadow rounded-xl transition-all"
     >
       <Image
         src={data.image}

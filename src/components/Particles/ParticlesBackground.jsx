@@ -43,13 +43,13 @@ export default function ParticlesBackgorund() {
                 },
                 particles: {
                     color: {
-                        value: "#a3e635",
+                        value: "#facc15",
                     },
                     links: {
-                        color: "#d9f99d",
+                        color: "#fef08a",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.8,
                         width: 1,
                     },
                     move: {
