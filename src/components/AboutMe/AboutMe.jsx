@@ -13,20 +13,26 @@ export default function AboutMe() {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-      className="h-max bg-neutral-800 w-full container max-w-[1000px] rounded-xl p-10 flex flex-col shadow-xl gap-8"
+      className="h-full bg-neutral-800 w-full container max-w-[1000px] rounded-xl p-10 flex flex-col shadow-xl gap-10"
     >
       <div className="flex gap-3 items-center">
         <HiMiniCodeBracket color="#facc15" size={"24px"} />
         <h3 className="text-lg md:text-xl text-yellow-400">ABOUT ME</h3>
       </div>
-      <p className="text-neutral-400 text-lg md:text-xl  font-light">
+      <p className="text-neutral-400 text-lg md:text-xl font-light">
         Passionate about programming. Resilient, competitive, and persistent.{" "}
         <br /> My goal is to put into practice all the knowledge acquired during
         my academic training and be part of a team that allows me to develop
-        personally and professionally
+        personally and professionally.
+        <br />
+        I am currently studying Computer Engineering at the "Universidad Nacional de La Matanza".
       </p>
+      <div className='mx-auto md:flex  flex-col max-w-lg'>
+        <button className='border h-full rounded-md w-full text-yellow-400 text-base md:text-lg px-2 md:px-5 md:py-1 border-yellow-400 items-center mx-auto mb-3 hover:border-yellow-500'><a href="https://drive.google.com/file/d/1wTzegr14IdFPGLhRKvynMQrzt7sv_GaW/view?usp=sharing">View CV</a></button>
+        <button className='border h-full rounded-md w-full text-yellow-400 text-base md:text-lg px-2 md:px-5 md:py-1 border-yellow-400 items-center mx-auto hover:border-yellow-500'><a href="https://drive.google.com/file/d/1UMmoREeZZl8kX1820tDBSiNwxXc6ATV7/view?usp=drive_link">View Academic History</a></button>
+      </div>
 
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center mt-20 md:mt-0">
         <HiOutlineBriefcase color="#facc15" size={"24px"} />
         <h3 className="text-lg md:text-xl text-yellow-400">What Im Doing</h3>
       </div>
