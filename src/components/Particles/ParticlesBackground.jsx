@@ -19,7 +19,7 @@ export default function ParticlesBackgorund() {
             options={{
                 background: {
                     color: {
-                        value: "#0a0a0a",
+                        value: "#2c2f33",
                     },
                 },
                 fpsLimit: 120,
@@ -43,10 +43,10 @@ export default function ParticlesBackgorund() {
                 },
                 particles: {
                     color: {
-                        value: "#facc15",
+                        value: "#99aab5",
                     },
                     links: {
-                        color: "#fef08a",
+                        color: "#99aab5",
                         distance: 150,
                         enable: true,
                         opacity: 0.8,

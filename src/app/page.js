@@ -9,7 +9,7 @@ import Skills from '@/components/Skills/Skills'
 
 export default function Home() {
   return (
-    <main className={`min-h-screen mx-auto flex flex-col items-center justify-center gap-2 p-10 bg-tansparent font-oswald`}>
+    <main className={`min-h-screen mx-auto flex flex-col items-center justify-center gap-2 p-10 bg-transparent font-oswald`}>
       <ParticlesBackgorund />
       <Presentation />
       <AboutMe />
