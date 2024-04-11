@@ -22,7 +22,7 @@ export default function ParticlesBackgorund() {
                         value: "#2c2f33",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 60,
                 interactivity: {
                     events: {
                         onHover: {
