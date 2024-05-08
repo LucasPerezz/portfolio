@@ -22,11 +22,11 @@ export default function ParticlesBackgorund() {
                         value: "#2c2f33",
                     },
                 },
-                fpsLimit: 60,
+                fpsLimit: 30,
                 interactivity: {
                     events: {
                         onHover: {
-                            enable: true,
+                            enable: false,
                             mode: "repulse",
                         },
                         resize: true,
@@ -59,7 +59,7 @@ export default function ParticlesBackgorund() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 5,
+                        speed: 1,
                         straight: false,
                     },
                     number: {
@@ -67,7 +67,7 @@ export default function ParticlesBackgorund() {
                             enable: true,
                             area: 800,
                         },
-                        value: 60,
+                        value: 100,
                     },
                     opacity: {
                         value: 0.5,
